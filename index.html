@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>the cafe</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start nav bar -->
+<nav class="text-center ">
+    <ul class="d-grid  ">
+        <div class="row text-center  ">
+        <li class=" col-3 " ><a class=" " href="#Home ">Home</a></li>
+        <li class="col-3 "  ><a class="" href="#About">About</a></li>
+        <li  class="col-3 " ><a class=" " href="#Menu">Menu</a></li>
+        <li class="col-3 " ><a class=" " href="#Where">Where</a></li>
+        </div>
+    </ul>
+</nav>
+<!-- end nav bar -->
+<!-- start header -->
+<header id="Home" class="Home ">
+    <div class="container">
+        <div class="title ">
+            <h1 class="m-auto text-center">The<br>Cafe</h1>
+        </div>
+        <span class="lt">Open from 6am to 5pm</span>
+        <span class="rt">15 Adr street, 5015</span></div>
+</header>
+<!-- end header -->
+<!-- start about -->
+<section id="About" class="about pt-5 pb-5">   
+    <div class="container">
+        <h3>ABOUT THE CAFE</h3>
+        <p>The Cafe was founded in blabla by Mr. 
+            Smith in lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+            ea commodo consequat.
+        </p>
+        <p>In addition to our full espresso and brew bar menu, we serve 
+            fresh made-to-order breakfast and lunch sandwiches, 
+            as well as a selection of sides and salads and other good stuff.</p>
+        <p class="lt-br">
+            <span>"Use products from nature for what it's worth - 
+            but never too early, nor too late." Fresh is the new sweet.
+            <br>
+            </span>Chef, Coffeeist and Owner: Liam Brown
+        </p>
+        <div class="img-holder">
+                    <img class="img-fluid" src="image/coffeeshop.jpg" alt="">
+        </div>
+        <p> <strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+        <p><strong>Address:</strong>  15 Adr street, 5015, NY</p>
+    </div>
+</section>
+<!-- end about  -->
+<!-- start menu -->
+<section id="Menu" class="menu mb-5">
+    <div class="container">
+        <h3>The menu</h3>
+        <div class="sort m-auto mb-5 ">
+            <div class="row btn-box p-1 mb-3  ">
+                <button  href="#eat" class="eatbtn col-6  p-1">Eat</button>
+                <button  href="#drink" class=" drinkbtn col-6 p-1 ">Drink</button>
+            </div>
+            <div id="eat" class="text1  p-3 lh-2">
+                <p>
+                <strong>Bread Basket</strong><br>
+                Assortment of fresh baked fruit breads and muffins 5.50
+                <br><br>
+                <strong>Honey Almond Granola with Fruits</strong><br>
+                Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+                <br><br>
+                <strong>Belgian Waffle</strong><br>
+                Vanilla flavored batter with malted flour 7.50
+                <br><br>
+                <strong>Scrambled eggs</strong> <br>
+                Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+                <br><br>
+                <strong>Blueberry Pancakes</strong><br>
+                With syrup, butter and lots of berries 8.50
+                <br><br></p>
+            </div>
+            <div id="drink" class="text2 hided p-3 lh-2">
+                <p>
+                    <strong>Coffee</strong><br>
+                    Regular coffee 2.50 
+                    <br><br>
+                    <strong>Chocolato</strong><br>
+                    Chocolate espresso with milk 4.50
+                    <br><br>
+                    <strong>Corretto</strong><br>
+                    Whiskey and coffee 5.00
+                    <br><br>
+                    <strong>Iced tea</strong><br>
+                    Hot tea, except not hot 3.00
+                    <br><br>
+                    <strong>Soda</strong><br>
+                    Coke, Sprite, Fanta, etc. 2.50
+                    <br><br></p>
+            </div>
+        </div>
+        <div class="img-holder m-auto mt-5">
+            <img class="img-fluid" src="image/coffeehouse2.jpg" alt="">
+        </div>
+    </div>
+</section>
+<!-- end menu -->
+<!-- start where -->
+<section id="Where" class="where mb-5">
+    <div class="container">
+        <h3 >WHERE TO FIND US
+        </h3>
+        <p class="pt-2 pb-2">Find us at some address at some place.
+        </p>
+        <div class="img-holder m-auto">
+            <img class="img-fluid" src="image/map.jpg" alt="">
+        </div>
+        <br>
+        <p><span>FYI!</span>  We offer full-service catering for any event, large or small. 
+            We understand your needs and we will cater the food to satisfy the 
+            biggerst criteria of them all, 
+            both look and taste.
+        </p>
+        <p class="pt-3 pb-3"> <strong>Reserve</strong> a table, ask for today's special or just send us a message:
+        </p>
+        <form class="m-auto" action="">
+            <input class="m-auto mb-4 w-100 p-3 " type="text" placeholder="Name" required><br>
+            <input class="m-auto mb-4 w-100 p-3" type="number" placeholder="How many people" required><br>
+            <input class="m-auto mb-4 w-100 p-3 " type="datetime-local" placeholder="Date and time" value="2020-11-16T20:00" required><br>
+            <textarea class="m-auto mb-4 w-100 p-3 " name="" id="" cols="" rows="" placeholder="Message \ Special requirements"required></textarea>
+            <br><button class=" pt-2 pb-2 ps-3 pe-4 " type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<!-- end where -->
+<!-- start footer -->
+<footer>
+    <p class="m-auto text-center p-5" >Powered by <a href="https://www.w3schools.com/" target="_blank">w3.css</a></p>
+</footer>
+<!-- end footer -->
+<script src="js/cafe.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    pad: 0;
+}
+body{background-color: #eee;
+    width: 100%;
+    font-family: "Inconsolata", monospace;;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h3{margin: auto;
+    width: fit-content;
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+p{max-width: 700px;margin: auto;
+    line-height: 1.7;
+    font-size: 1.15rem;
+}
+.img-holder{margin:10px auto 20px;
+    max-width: 700px;
+}
+.img-holder img{ filter:grayscale(70%) ; -webkit-filter:grayscale(70%) ;
+}
+/* nav */
+nav{position: fixed;width: 100%;z-index: 999;
+    height: 60px;
+    background-color: black;
+}
+nav ul li{height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+nav ul li a{
+color: white;
+}
+nav ul li:hover{
+    
+    background-color: white;
+    border: 5px black solid;
+}
+nav ul li:hover a{
+    color: black;
+}
+/* header */
+header{
+    width: 100%;
+    background-image:url(../image/coffeehouse.jpg) ;
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    background-position: topcenter;
+    height: 75vh;
+    position: relative;
+    z-index:-1 ;
+    filter:grayscale(50%) ;
+-webkit-filter:grayscale(50%) ;
+}
+header .title h1{color: white;
+    font-size: 6rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+header .lt{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: white;
+    background-color: black;
+}
+header .rt{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    background-color: rgba(54, 53, 53, 0.199);
+}
+
+/* sectin about */
+.about .lt-br{background-color: #e4e4e4;
+    border-left: 8px #bbbbbb solid;
+    padding:10px ;
+    margin: 20px auto;
+    line-height:2.5;
+    
+}
+.about .lt-br span{
+    font-style: italic;
+}
+/* menu */
+.sort{
+    max-width: 700px;
+    box-shadow: 0px 5px 5px 5px rgb(189, 189, 189);
+    position: relative;
+    margin-bottom:20px ;
+}
+.btn-box{margin: auto;
+    justify-content: space-between;
+    padding: 5px 10px;
+    box-shadow: 0px 5px 5px 2px rgb(194, 193, 193);
+}
+.menu button{margin: auto;
+    border: none;
+    text-align: center;
+}
+.text1{display: block;
+    min-height: 600px;
+}
+.text2{
+    
+min-height: 600px;
+
+}
+
+.drinkbtn{
+    background-color:gray ;
+}
+.hided{
+    display: none;
+}
+/* where */
+.where span {
+    background-color: black; padding: 2px 10px;
+    color: white;
+}
+
+form{
+    max-width: 700px;
+}
+.where button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+.where button:hover{background-color: #bbbbbb;
+    color: black;
+
+}
+/* footer */
+footer{
+    background-color: #e4e4e4;
+}
+footer a{
+    text-decoration: underline;
+    color: black;
+}
+footer a:hover{
+    color: rgb(12, 158, 12);
+}
+
